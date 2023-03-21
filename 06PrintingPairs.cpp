@@ -6,7 +6,7 @@ int PrintPair(int arr[],int n){
         int x = arr[i];
         for(int j=i+1;j<n;j++){
             int y = arr[j];
-            cout<<"("<<arr[i] <<","<< y<<")" << endl;
+            cout<<"("<< x <<", "<< y<<")" << endl;
         }
         cout<<endl;
         
