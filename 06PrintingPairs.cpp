@@ -9,10 +9,9 @@ int PrintPair(int arr[],int n){
             cout<<"("<< x <<", "<< y<<")" << endl;
         }
         cout<<endl;
+
         
     }
-
-
 }
 int main()
 {

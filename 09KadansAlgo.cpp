@@ -17,6 +17,7 @@ int main()
 {
     // int arr[] ={-2, 3, 4, -1, 5, -12 , 6, 1, 3};
     int arr[] = {10,20,30,40,50,60};
+    
     int n = sizeof(arr)/sizeof(int);
     cout<<kadansAlgo(arr, n);
      return 0;
