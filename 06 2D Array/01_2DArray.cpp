@@ -17,9 +17,9 @@ int main() {
 
     int n,m;
     int arr[1000][100];
-    cout<<"please enter thr array" <<endl;
+    cout<<"please enter thr value of row and col" <<endl;
     cin>>n>>m;
-
+    cout<<"please enter the 2D Array" <<endl;
     for(int i=0;i<n;i++){
         for(int j=0;j<m;j++){
             cin>>arr[i][j];
